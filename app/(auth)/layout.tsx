@@ -14,11 +14,12 @@ export default function Authlayout({
       <Button
         asChild
         className="absolute left-6 top-10 "
-        size={"lg"}
+        size={"sm"}
         variant={"outline"}
       >
         <Link href={"/"}>
-          <ArrowLeftCircle /> Back
+          <ArrowLeftCircle />
+          <span className="hidden sm:block">Back</span>
         </Link>
       </Button>
       <div className="flex flex-col w-full max-w-sm gap-6">
